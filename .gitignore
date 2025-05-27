@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.env
+
+# Node
+node_modules/
+dist/
+*.log
+
+# macOS
+.DS_Store
+
+# Vite
+frontend/.vite/
+
+# VS Code
+.vscode/
