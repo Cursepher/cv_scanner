@@ -13,21 +13,10 @@ A web application that scans uploaded PDF cover letters to redact sensitive info
 ✅ Clean, responsive UI with instant feedback
 
 ## 🛠️ Setup Instructions
-
-### 💻 Frontend (React + Vite)
-  ```bash
-  cd frontend
-  npm install
-  npm run dev
-  ```
-
-### 🔧 Backend (FastAPI)
    ```bash
    python -m venv venv
    source venv/bin/activate # On Windows: venv\Scripts\activate
    pip install -r requirements.txt
-   uvicorn backend.api:app --reload
+   cd backend
+   uvicorn api:app --reload
    ```
-
-   
-   
