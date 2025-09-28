@@ -3,8 +3,8 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
 import tempfile
 
-from backend.src.pdf import process_pdf
-from backend.src.scanner import process_cover_letter
+from src.pdf import process_pdf
+from src.scanner import process_cover_letter
 
 # Create FastAPI app
 app = FastAPI()
