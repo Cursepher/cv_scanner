@@ -17,6 +17,5 @@ A web application that scans uploaded PDF cover letters to redact sensitive info
    python -m venv venv
    source venv/bin/activate # On Windows: venv\Scripts\activate
    pip install -r requirements.txt
-   cd backend
-   uvicorn api:app --reload
+   uvicorn backend.api:app --reload
    ```
