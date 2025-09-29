@@ -2,11 +2,7 @@ import React from "react";
 import UploadCoverLetter from "./components/UploadCoverLetter";
 
 function App() {
-  return (
-    <div>
-      <UploadCoverLetter />
-    </div>
-  );
+  return <UploadCoverLetter />;
 }
 
 export default App;

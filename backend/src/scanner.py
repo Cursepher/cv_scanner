@@ -13,7 +13,7 @@ pii_prompt = PromptTemplate(
     input_variables=["text"],
     template=(
         "You are a privacy assistant. Remove or redact all PII (personally identifiable information) "
-        "from the following cover letter. This includes names, phone numbers, email addresses, locations, "
+        "from the following cover letter and replace it with [REDACTED]. This includes names, phone numbers, email addresses, locations, "
         "social security numbers, and any other private identifiers.\n\n"
         "Cover Letter:\n{text}\n\n"
         "Redacted Cover Letter:"
